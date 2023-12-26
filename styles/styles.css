@@ -560,7 +560,41 @@ section {
   transition: all 0.4s ease-in-out;
   padding: 1rem 1rem;
 }
+.memories .memory-item .hover-items h5 {
+  margin-bottom: 8px;
+}
+.memories .memory-item .hover-items .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.memories .memory-item .hover-items .icons .icon {
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.memories .memory-item .hover-items .icons .icon i {
+  font-size: 1.5rem;
+  color: var(--color-white);
+  margin: 0 1rem;
+}
+.memories .memory-item .hover-items .icons .icon:hover {
+  background-color: var(--color-white);
+  width: 40px;
+  height: 40px;
+}
+.memories .memory-item .hover-items .icons .icon:hover i {
+  color: var(--color-primary);
+}
 .memories .memory-item .hover-items p {
+  margin-top: 8px;
   font-size: x-small;
 }
 
