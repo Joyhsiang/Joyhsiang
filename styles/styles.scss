@@ -449,7 +449,7 @@ section{
 
 .portfolios{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 2rem;
     margin-top: 3rem;
     .portfolio-item{
@@ -534,14 +534,14 @@ section{
 
 .memories{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 2rem;
     margin-top: 3rem;
     .memory-item{
         position: relative;
         img{
             width: 100%;
-            height: 150px;
+            height: 300px;
             object-fit: cover;
             border-radius: 15px;
         }
